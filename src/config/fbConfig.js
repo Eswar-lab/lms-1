@@ -6,16 +6,19 @@ import 'firebase/analytics';
 import 'firebase/storage';
 
 
+
+
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_APIKEY,
-    authDomain: process.env.REACT_APP_AUTHDOMAIN,
-    databaseURL: process.env.REACT_APP_DB,
-    projectId: process.env.REACT_APP_PID,
-    storageBucket: process.env.REACT_APP_SB,
-    messagingSenderId: process.env.REACT_APP_SID,
-    appId: process.env.REACT_APP_APPID,
-    measurementId:process.env.REACT_APP_MID
-}
+    apiKey: "AIzaSyAsaV7eYS-zpNVG4Wk1nXUjQDmHKhMOiJQ",
+  authDomain: "qrproject-69c75.firebaseapp.com",
+  databaseURL: "https://qrproject-69c75-default-rtdb.firebaseio.com",
+  projectId: "qrproject-69c75",
+  storageBucket: "qrproject-69c75.appspot.com",
+  messagingSenderId: "503988137670",
+  appId: "1:503988137670:web:19527fd2cfe4cc6cb8f1c7",
+  measurementId: "G-DGD6TG61DK"
+
+};
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.firestore();
